@@ -16,6 +16,7 @@
 		3A5B196023EF163F008D09CE /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B195F23EF163F008D09CE /* BroadcastViewController.swift */; };
 		3A5B196223EF1CAB008D09CE /* PreviousTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B196123EF1CAB008D09CE /* PreviousTableViewController.swift */; };
 		3A5B196423EF21D8008D09CE /* ScheduledTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B196323EF21D8008D09CE /* ScheduledTableViewController.swift */; };
+		3A5B196623EF2A8F008D09CE /* ScheduledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B196523EF2A8F008D09CE /* ScheduledTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3A5B195F23EF163F008D09CE /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
 		3A5B196123EF1CAB008D09CE /* PreviousTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousTableViewController.swift; sourceTree = "<group>"; };
 		3A5B196323EF21D8008D09CE /* ScheduledTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTableViewController.swift; sourceTree = "<group>"; };
+		3A5B196523EF2A8F008D09CE /* ScheduledTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				3A5B195F23EF163F008D09CE /* BroadcastViewController.swift */,
 				3A5B196123EF1CAB008D09CE /* PreviousTableViewController.swift */,
 				3A5B196323EF21D8008D09CE /* ScheduledTableViewController.swift */,
+				3A5B196523EF2A8F008D09CE /* ScheduledTableViewCell.swift */,
 			);
 			path = PrepTalk;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				3A5B196223EF1CAB008D09CE /* PreviousTableViewController.swift in Sources */,
 				3A59BD4723EE4B2C00750558 /* LogInViewController.swift in Sources */,
 				3A59BD3123EE401E00750558 /* AppDelegate.swift in Sources */,
+				3A5B196623EF2A8F008D09CE /* ScheduledTableViewCell.swift in Sources */,
 				3A5B196023EF163F008D09CE /* BroadcastViewController.swift in Sources */,
 				3A59BD3323EE401E00750558 /* SceneDelegate.swift in Sources */,
 				3A5B196423EF21D8008D09CE /* ScheduledTableViewController.swift in Sources */,
