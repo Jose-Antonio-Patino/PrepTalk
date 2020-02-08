@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ScheduledTableViewCell: UITableViewCell {
-
+class ScheduledTableViewCell: UITableViewCell
+{
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var attendanceLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
