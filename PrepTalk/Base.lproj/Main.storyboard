@@ -57,7 +57,7 @@
             </objects>
             <point key="canvasLocation" x="-684.05797101449275" y="-40.178571428571423"/>
         </scene>
-        <!--Broadcast View Controller-->
+        <!--PrepTalk-->
         <scene sceneID="rvL-YJ-jVQ">
             <objects>
                 <viewController id="WAR-7P-IIP" customClass="BroadcastViewController" customModule="PrepTalk" customModuleProvider="target" sceneMemberID="viewController">
@@ -67,7 +67,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="8yr-N9-ROg"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zfC-91-XeE"/>
+                    <navigationItem key="navigationItem" title="PrepTalk" id="zfC-91-XeE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1lE-Ci-w90" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,7 +92,7 @@
             </objects>
             <point key="canvasLocation" x="167" y="-40"/>
         </scene>
-        <!--Previous Table View Controller-->
+        <!--PrepTalk-->
         <scene sceneID="9S1-Y4-8hl">
             <objects>
                 <tableViewController id="7Hx-KM-yE6" customClass="PreviousTableViewController" customModule="PrepTalk" customModuleProvider="target" sceneMemberID="viewController">
@@ -115,13 +115,13 @@
                             <outlet property="delegate" destination="7Hx-KM-yE6" id="Nc6-gt-crq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="CjV-Qc-FRS"/>
+                    <navigationItem key="navigationItem" title="PrepTalk" id="CjV-Qc-FRS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xhk-SC-cI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="887" y="1405"/>
         </scene>
-        <!--Scheduled Table View Controller-->
+        <!--PrepTalk-->
         <scene sceneID="eS3-EP-9JA">
             <objects>
                 <tableViewController id="Rmh-tG-7ac" customClass="ScheduledTableViewController" customModule="PrepTalk" customModuleProvider="target" sceneMemberID="viewController">
@@ -171,7 +171,7 @@
                             <outlet property="delegate" destination="Rmh-tG-7ac" id="tMO-Tw-oFD"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Hxt-vd-1lx"/>
+                    <navigationItem key="navigationItem" title="PrepTalk" id="Hxt-vd-1lx"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku2-mr-ENG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -181,7 +181,7 @@
         <scene sceneID="5QL-su-Nnb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MBU-lu-MVO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Broadcast" id="OIT-3b-KyN"/>
+                    <tabBarItem key="tabBarItem" title="Broadcast" image="person.crop.rectangle" catalog="system" id="OIT-3b-KyN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5yV-fd-JTb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -201,7 +201,7 @@
         <scene sceneID="ggl-2C-mVc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a56-gj-IRD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Feedback" id="9Ms-Jo-blk"/>
+                    <tabBarItem key="tabBarItem" title="Feedback" image="pencil.and.ellipsis.rectangle" catalog="system" id="9Ms-Jo-blk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c0h-0E-s9t">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -221,7 +221,7 @@
         <scene sceneID="wsK-R8-eo3">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hxS-FG-Ocz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Scheduled" id="tTe-p1-P8p"/>
+                    <tabBarItem key="tabBarItem" title="Scheduled" image="calendar" catalog="system" id="tTe-p1-P8p"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wyo-dm-ANR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -238,4 +238,9 @@
             <point key="canvasLocation" x="-558" y="686"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="64" height="52"/>
+        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
+        <image name="person.crop.rectangle" catalog="system" width="64" height="46"/>
+    </resources>
 </document>
